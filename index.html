@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Úloha č.4</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper">       
+
+    <header>
+        <h1>Zabezpečte si účet</h1>
+    </header>
+
+    <main>
+        <section style="display: block;" id="firstTest">
+            <div class="wrapper">
+            <p>
+                Predchádzajúci strážnik nemal dobré vedomosti o digitálnej bezpečnosti. 
+                Nepoznal dobré praktiky pri vytváraní hesiel či zabezpečení účtu.
+                Aby ste sa dostali ďalej, potrebujete prelomiť jeho heslo. 
+            </p>
+            <form id="firstPassword">
+                <div class="row">
+                    <input type="text" id="oldPassword">
+                    <button type="submit" id="firstSubmit">✔️</button>
+                </div>
+                <label name="contextOld"></label>
+            </form>
+        </div>
+            </section>
+            <section style="display: none;" id="secondTest">
+            <p>
+                Zvládli ste to.
+                Aby ste mohli získať kód a pokračovať, ešte musíte vymyslieť nové, 
+                dostatočne silné heslo na zabezpečenie účtu.
+            </p>
+
+            <form id="secondPassword"> 
+                <div class="row">
+                    <input type="text" id="newPassword">
+                    <button type="submit" id="secondSubmit">✔️</button>
+                </div>
+                <label name="contextNew"></label>
+            </form>
+
+        </section>
+
+        <section style="display: none;" id="final">
+            <p> Heslo bolo úspešne zmenené. </p>
+            <p>
+                Najlepšie je používať náhodne vygenerované heslo.
+                Je však dlhé a ťažko zapamätateľné, preto je ideálne uložiť si ho do špeciálneho správcu hesiel.
+                Heslá si neukladajte do prehliadača. Je to rovnaké, akoby ste ich mali nalepené na papieriku na počítači.
+            </p>
+
+            <p id="nextRiddleCode">Úspešne ste zvládli úlohu, kód je   </p>
+        </section>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

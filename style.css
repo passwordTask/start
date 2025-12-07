@@ -1,0 +1,116 @@
+*{
+    font-family: "Science Gothic", sans-serif;;
+    color: #4BE3AC;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #032D3C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Science Gothic", sans-serif;
+    color: #4BE3AC;
+    text-align: center;
+    overflow: hidden;
+  }
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-family: "Pixelify Sans", sans-serif;
+    color: #4BE3AC;
+    margin-bottom: 20px;
+    font-size: 4rem;
+  }
+  section, .container, .input-row {
+    border: 4px dotted #4BE3AC;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+
+/* Horizontal row for input + button */
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+
+        flex: 1;
+        padding: 12px 14px;
+        border: 2px solid #F7FF56;
+        border-right: none;
+        border-radius: 8px 0 0 8px;
+        outline: none;
+        background: #fff;
+        font-size: 15px;
+        transition: all 0.25s ease;
+}
+input:focus {
+    border-color: #4BE3AC;
+}
+button {       width: 55px;
+background: #F7FF56;
+color: #000;
+border: 2px solid #F7FF56;
+border-radius: 0 8px 8px 0;
+font-size: 20px;
+cursor: pointer;
+transition: background 0.25s, transform 0.2s;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+button:hover {
+    background: #f5ff40;
+    transform: scale(1.05);
+}
+label{
+    color: #cc2c2c;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+@media (min-width: 600px) {
+    section {
+        max-width: 450px;
+        padding: 30px;
+    }
+
+    input[type="text"] {
+        font-size: 1.1rem;
+    }
+
+    button[type="submit"] {
+        font-size: 1.7rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+        padding: 40px;
+    }
+
+    section {
+        max-width: 520px;
+    }
+}
