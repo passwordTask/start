@@ -6,7 +6,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding: 1.5rem;
     background: #032D3C;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@ html, body {
     font-family: "Pixelify Sans", sans-serif;
     color: #4BE3AC;
     margin-bottom: 20px;
-    font-size: 4rem;
+    font-size: 2rem;
   }
   section, .container, .input-row {
     border: 4px dotted #4BE3AC;
@@ -113,4 +113,5 @@ label{
     section {
         max-width: 520px;
     }
+
 }
