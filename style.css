@@ -87,6 +87,9 @@ label{
 }
 
 @media (min-width: 600px) {
+    body{
+        padding: 1.5rem;
+    }
     section {
         max-width: 450px;
         padding: 30px;
@@ -115,3 +118,4 @@ label{
     }
 
 }
+
