@@ -36,7 +36,6 @@ html, body {
     margin: 10px 0;
   }
 
-/* Horizontal row for input + button */
 .row {
     display: flex;
     flex-direction: row;
@@ -118,4 +117,5 @@ label{
     }
 
 }
+
 
